@@ -6,18 +6,18 @@ As part of our application process, we'd like to see what you can produce by giv
 
 We would like you to create the backend for an invoicing app. The APIs it should include:
 
-- [ ] Create a new invoice
-  - [ ] Add line items to the invoice. Line items may include hours of work at a certain rate, work-related expenses, materials, labor, etc.
-  - [ ] Add notes to the invoice, including possibly how to pay it, where to send checks, etc.
-- [ ] Ability to update the status of the invoice
-- [ ] Send the invoice via email
-- [ ] View invoices including status (paid, outstanding, late, etc.)
+- [x] Create a new invoice
+  - [x] Add line items to the invoice. Line items may include hours of work at a certain rate, work-related expenses, materials, labor, etc.
+  - [x] Add notes to the invoice, including possibly how to pay it, where to send checks, etc.
+- [x] Ability to update the status of the invoice
+- [x] Send the invoice via email
+- [x] View invoices including status (paid, outstanding, late, etc.)
 
 #### Extra credit features
 
-- [ ] Add a due date to an invoice
-- [ ] View late invoices, or even better, alert when an invoice is late
-- [ ] Tests
+- [x] Add a due date to an invoice
+- [x] View late invoices, or even better, alert when an invoice is late
+- [x] Tests
 - [ ] API Documentation
 - [ ] Data Validation
 
