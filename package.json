@@ -1,0 +1,37 @@
+{
+  "name": "backend-assignment",
+  "version": "1.0.0",
+  "description": "As part of our application process, we'd like to see what you can produce by giving you a small assignment. It should take you no more than a few hours to complete the assignment, but any extra polish or features you might want to put in will not go unnoticed.",
+  "main": "index.js",
+  "scripts": {
+     "test": "mocha test/invoice.test.js --timeout 50000",
+    "start": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "easyinvoice": "^2.2.6",
+    "express": "^4.17.2",
+    "googleapis": "^95.0.0",
+    "http-errors": "^2.0.0",
+    "mocha": "^9.2.0",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.14",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "should": "^13.2.3",
+    "swagger-ui-express": "^4.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dipikesh/backend-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dipikesh/backend-assignment/issues"
+  },
+  "homepage": "https://github.com/Dipikesh/backend-assignment#readme"
+}
