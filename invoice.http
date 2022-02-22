@@ -1,0 +1,78 @@
+
+POST http://localhost:8080/create HTTP/1.1
+Content-type: application/json
+
+{    "data":{
+
+    "sender": {
+      "company": "Sample Corp",
+      "address": "Sample Street 123",
+      "zip": 1234,
+      "city": "Sampletown",
+      "country": "Samplecountry"
+  
+    },
+
+    "client": {
+      "company": "Client Corp",
+      "address": "Clientstreet 456",
+      "zip": 4567,
+      "city": "Clientcity",
+      "country": "Clientcountry",
+      "email":"dipikesh.singh.915@gmail.com"
+    },
+  "information": {
+    "newDate": "2021-12-12",
+    "due": "2021-12-29"
+  },
+   "products": [
+    {
+      "quantity": 2,
+      "description": "Product 1",
+      "taxRate": 6,
+      "price": 33.87
+    },
+    {
+      "quantity": 4.1,
+      "description": "Product 2",
+      "taxRate": 6,
+      "price": 12.34
+    },
+    {
+      "quantity": 4.5678,
+      "description": "Product 3",
+      "taxRate": 21,
+      "price": 6324.453456
+    }
+  ],
+    "note":{
+        "notice":"asdfsdf"
+    } 
+}
+
+}
+###
+GET http://localhost:8080/all HTTP/1.1
+Content-type: application/json
+
+{
+
+}
+
+###
+GET http://localhost:8080/late-invoices HTTP/1.1
+Content-type: application/json
+
+{
+
+}
+
+###
+POST http://localhost:8080/update-invoice-status HTTP/1.1
+Content-type: application/json
+
+{
+  "number":239336
+}
+
+
